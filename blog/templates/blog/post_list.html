@@ -8,11 +8,16 @@
     <body>
         <div>
             <h1>Welcome!</h1>
-        </div>
+       </div>
         
+            {% for post in posts %}
         <div>
-        <em><h2>Ejmen nwm co robię</h2></em>
-        <a href='https://youtube.com'>Klik!</a>
+            <p>opublikowany:{{post.publish_date}}</p>
+            <h2><a href=''>{{post.title}}</a></h2>
+            <em>{{post.text|linebreaksbr}}</em>
+        </div>
+        <div>
+            {% endfor %}
         </div>
     </body>
 </html>
