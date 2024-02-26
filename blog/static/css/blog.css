@@ -1,0 +1,14 @@
+h2 a {
+    color:#952007;
+}
+
+body {
+    padding-left: 15px;
+
+}
+
+.header{
+    background-color: bisque;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
