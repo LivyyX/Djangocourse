@@ -5,6 +5,7 @@
     {% for post in posts %}
         <div class='post'>
             <h2><a href='{% url 'post_detail' pk=post.pk %}'>{{post.title}}</a></h2>
+            <img src="{{post.image.url}}" alt='Obrazek' width='100px'>
             <p>opublikowany: {{post.publish_date}}</p>
             <em>{{post.text|linebreaksbr}}</em>
         </div>
