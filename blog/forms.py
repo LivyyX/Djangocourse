@@ -9,3 +9,4 @@ class PostForm(forms.ModelForm):
         model=Post
         fields =['title','text','image']
         
+    # image = forms.ImageField(label='Image')

@@ -3,7 +3,7 @@ from .models import Post
 from django.utils import timezone
 from django.http import HttpResponseRedirect
 from django.urls import reverse_lazy
-from blog.forms import PostForm
+from .forms import PostForm
 from django.views.generic import DetailView
 from django.views.generic import TemplateView
 
