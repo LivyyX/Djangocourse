@@ -3,7 +3,7 @@ from .models import Post
 
 class PostForm(forms.ModelForm):
     
-    title = forms.CharField(help_text='POMOCY!')
+    title = forms.CharField(help_text='max 200 znaków')
     
     class Meta:
         model=Post
