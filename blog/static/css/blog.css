@@ -8,6 +8,7 @@ h2 a {
 .header{
     font-family: "Rajdhani", sans-serif;
     font-size: 300%;
+    border-radius: 10px;
     background-color: bisque;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
